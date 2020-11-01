@@ -63,8 +63,8 @@ l[["first"]]
 is.list(l[1])
 is.list(l[[1]])
 
-1$first
-1$f
+l$first
+l$f
 
 #嵌套方括号或传入向量来访问嵌套元素
 l[["third"]]["beta"]
@@ -76,7 +76,7 @@ is.list(l[["third"]][["beta"]])
 l[c(4,2,5)]
 l[c("fourth","second","fifth")]
 l[["fourth"]]
-1$fourth
+l$fourth
 l[[4]]#yuejie
 
 #向量和列表之间的转换
