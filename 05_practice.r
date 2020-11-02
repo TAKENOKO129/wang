@@ -133,9 +133,10 @@ length(NA)
 is.null(NULL)
 is.null(NA)
 
-china_holiday$Sep
+#NULL也可用于删除列表中的元素,把元素设置为NULL(即使它已经是NULL)则会删除它
+china_holiday$Sep <- NULL
 china_holiday
-china_holiday$Jun
+china_holiday$Jun <- list(NULL)
 china_holiday
 
 #成对列表
